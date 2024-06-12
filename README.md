@@ -2,7 +2,7 @@
 Desenvolvimento de um protocolo UDP modificado para incluir funcionalidades utilizadas no TCP.
 
 ## Objetivos
-Este trabalho tem como objetivo implementar quatro dos controles do protocolo TCP em uma aplicação UDP, sendo eles Controle de Fluxo, Controle de Congestionamento, Garantia de Entrega e Ordenação de Mensagens.
+Este trabalho tem como objetivo implementar quatro dos controles do protocolo TCP em uma aplicação UDP, sendo eles Controle de Fluxo, Controle de Congestionamento, Garantia de Entrega e Ordenação de Mensagens. Para o projeto será utilizada a liguagem Python.
 
 ## Controles inclusos:
 - Controle de Fluxo: Garantir que o receptor possa controlar o fluxo de dados recebidos.
