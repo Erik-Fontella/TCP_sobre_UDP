@@ -1,5 +1,3 @@
-## Exemplo dado pelo professor de comparação entre Tdp e Udp
-
 import socket
 import threading
 import time
@@ -47,6 +45,7 @@ def udp_client(message_count, udp_times):
         udp_times.append(end_time - start_time)
     client_socket.close()
     
+# Função do cliente UDP personalizado    
 def udp_clientTop(server_address, packet_count, window_size=5, ssthresh=16):
     udp_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     udp_socket.settimeout(1)
@@ -98,6 +97,7 @@ def udp_clientTop(server_address, packet_count, window_size=5, ssthresh=16):
 
     send_data()
     
+# Função do servidor UDP personalizado
 def udp_serverTop(bind_address):
     received_packets = set()
     lock = threading.Lock()
